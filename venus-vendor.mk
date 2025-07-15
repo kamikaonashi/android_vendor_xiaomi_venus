@@ -519,6 +519,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.citsensorservice@1.1-impl \
     libBlinkStub \
     libI420colorconvert \
+    libQnnHtpStub \
     libSNPE \
     lib_sr_models \
     libaidenoiser \
