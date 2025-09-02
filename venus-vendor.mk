@@ -88,7 +88,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/venus/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/xiaomi/venus/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/venus/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
-    vendor/xiaomi/venus/proprietary/vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc \
     vendor/xiaomi/venus/proprietary/vendor/etc/init/vendor.xiaomi.hardware.dtool@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.dtool@1.0-service.rc \
     vendor/xiaomi/venus/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/venus/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
@@ -516,7 +515,6 @@ PRODUCT_PACKAGES += \
     camera.xiaomi \
     com.qti.chi.override \
     fingerprint.goodix_fod.lahaina \
-    vendor.xiaomi.hardware.citsensorservice@1.1-impl \
     libBlinkStub \
     libI420colorconvert \
     libQnnHtpStub \
@@ -626,8 +624,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
-    vendor.xiaomi.hardware.citsensorservice@1.0 \
-    vendor.xiaomi.hardware.citsensorservice@1.1 \
     vendor.xiaomi.hardware.dtool@1.0 \
     capi_v2_aptX_CLHDADV_Encoder \
     capi_v2_aptX_CLHDAD_Speech_Decoder \
@@ -672,9 +668,7 @@ PRODUCT_PACKAGES += \
     misound_res_headphone \
     misound_res_spk \
     fod.xml \
-    vendor.xiaomi.hardware.citsensorservice@1.1-service.xml \
     batterysecret \
-    vendor.xiaomi.hardware.citsensorservice@1.1-service \
     vendor.xiaomi.hardware.dtool@1.0-service \
     init.qcom.sensors \
     sensors.qti \
